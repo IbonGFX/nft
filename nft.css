@@ -1,0 +1,128 @@
+body {
+    background-color: #0d1a2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+
+@font-face {
+    font-family:outfit ;
+    src: url(outfit.ttf);
+}
+
+
+#card {
+    width: 300px;
+    background-color: #15273f;
+    border-radius: 20px;
+    padding: 16px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+}
+
+
+
+
+#banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0 16px;
+}
+
+
+
+
+#p1 {
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 0 0 20px;
+    font-family: 'outfit', sans-serif;
+   
+}
+
+#currency {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#price {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#price img {
+    width: 16px;
+}
+
+#price span {
+    color: hsl(178, 100%, 50%);
+    font-size: 14px;
+    font-weight: 600;
+}
+
+#currency2 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+#currency2 img {
+    width: 14px;
+}
+
+#currency2 span {
+    color: hsl(215, 51%, 70%);
+    font-size: 14px;
+}
+
+
+
+
+hr {
+    border: none;
+    border-top: 1px solid #2a3b52;
+}
+
+
+
+
+#contact {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+#contact img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+#creator-name {
+    font-size: 14px;
+}
+
+#creationof {
+    color:hsl(215, 51%, 70%);
+}
+
+#jules {
+    color: white;
+}
